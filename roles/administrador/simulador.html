@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Método amortización francés</title>
+    <link rel="stylesheet" type="text/css" href="simulador.css">
+
+</head>
+
+
+<body>
+ 
+
+  <header class="header">
+    <div class="menu">
+      <nav>
+          <ul>
+            <a href="roles/proyecto_formativo.html"><img class="logo" src="imagenes/logo2.png"></a>  
+            <li><a></a></li>
+            <li><a></a></li>
+            
+
+            <li><a href="administradorphp.php" >Atras</a></li>
+            <li><a href="../proyecto_formativo.php">Inicio</a></li>
+            <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+           <!--  <li><a href="servicios.html">Servicios</a></li> -->
+            <!-- <li><a href="#">Blog</a></li> -->
+            <li><a href="contactos.html">Contacto</a></li>
+            <li><a href="perfil.php">Perfil</a></li>
+            
+            <li>
+                  <form action="../inicio_sesion.php" method="POST">
+                        <font> 
+                              <b><input class="button2" type="submit" name="cerrar_sesion" value="CERRAR SESION"></b>
+                        </font>
+                  </form>
+<!--                   <a href="inicio_sesion.php">Cerrar sesion</a></li> -->
+            </li>            
+          </ul>
+      </nav>
+    </div>
+  </header>
+    <div class="menu1" align="center">
+        <section class="form-register">
+    <div class="container" align="center">
+        <div class="row mt-3">
+            <div class="col-6">
+                <h2>SIMULADOR DE PRESTAMOS</h2><br>
+                <div class="form-group" >
+                    <label>MONTO</label>
+                    <input type="text" class="controls" id="monto" placeholder="Ingresar monto(sin . y sin ,)">
+                </div>
+                <div class="form-group">
+                    <label for="tiempo">A CUANTOS MESES</label>
+                    <input type="text" class="controls" id="tiempo" placeholder="Ingresar la cantidad de meses">
+                </div>
+                <div class="form-group">
+                    <label for="interes">INTERES MENSUAL</label>
+                    <input type="text" class="controls" id="interes" placeholder="ejemplo( 1.28 )">
+                </div>
+                <button type="submit" class="controls" id="btnCalcular">Calcular</button>
+            </div>
+        </section>
+        </div>
+    </div>
+    </div>
+
+
+
+
+<div class="menu2">
+        <section class="form-register1">
+        <div align="center">
+            <div>
+                <div>
+                    <h2>AÑO EJEMPLOS</h2><br>
+                    <div>
+                        <label>1 AÑO = 12 MESES</label>
+                    </div>
+                    <div>
+                        <label>2 AÑO = 24 MESES</label> 
+                    </div>
+                    <div>
+                        <label>3 AÑO = 36 MESES</label>
+                    </div>
+                    <div>
+                        <label>4 AÑO = 48 MESES</label>
+                    </div>
+                    <div>
+                        <label>5 AÑO = 60 MESES</label>
+                    </div>
+                    <div>
+                        <label>6 AÑO = 72 MESES</label>
+                    </div>
+                    <div>
+                        <label>7 AÑO = 84 MESES</label>
+                    </div>
+                    <div>
+                        <label>8 AÑO = 96 MESES</label>
+                    </div>
+                    <div>
+                        <label>9 AÑO = 108 MESES</label>
+                    </div>
+                    <div>
+                        <label>10 AÑO = 120 MESES</label>
+                    </div>
+                    <div>
+                        <label>11 AÑO = 132 MESES</label>
+                    </div>
+                    <div>
+                        <label>12 AÑO = 144 MESES</label>
+                    </div>
+                    <div>
+                        <label>13 AÑO = 156 MESES</label>
+                    </div>
+                    <div>
+                        <label>14 AÑO = 168 MESES</label>
+                    </div>
+                    <a href="https://www.google.com/search?q=a%C3%B1os+a+meses&sxsrf=AOaemvJm9hQhAuos0qK4X-NQC45ejFdDQA%3A1638151847330&ei=pzakYaK9E6LixgGLuIWYDg&ved=0ahUKEwjirMqXv7z0AhUisTEKHQtcAeMQ4dUDCA4&uact=5&oq=a%C3%B1os+a+meses&gs_lcp=Cgdnd3Mtd2l6EAMyBwgjELADECcyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEENKBQg8EgExSgQIQRgASgQIRhgAUABYAGC_A2gBcAJ4AIABAIgBAJIBAJgBAMgBCsABAQ&sclient=gws-wiz" target="_blank">click aqui para calcular mas años</a>
+
+                </div>
+        </section>
+            </div>
+        </div>
+    </div>
+
+            <div class="col-6">
+                <table id="lista-tabla" class="table" border="11px">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Cuota</th>
+                            <th>Capital</th>
+                            <th>Interés</th>
+                            <th>Saldo</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+    <script src="js/amortizacion.js"></script>
+    <script src="js/moment.js"></script>
+
+
+    <!-- llamada a bootstrap -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+<footer style="position:fixed; left:0px; bottom:0px; height:30px; width:100%;">
+ <!--    <small>&copy; Copyright 2020, Erick Cerna R</small> -->
+</footer>
+
+</html>

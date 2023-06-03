@@ -1,0 +1,200 @@
+*{
+  margin: 0px;
+  padding: 0px;
+/*  font-family: Helvetica; */
+}
+
+.button2{
+  background: black;
+  color: white;
+  display: inline-blockl;
+  font-size: 1 px;
+  margin: 0px;
+  margin-left: 19px;
+  /*text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 0px 0px #373c3c;
+  font-family: 'Bebas Neue', cursive;
+  line-height: 50px;
+  font-weight: 1000px;*/
+
+}
+/*head{
+  background-color: black;
+}*/
+
+
+
+header.header{
+  background: url(imagenes/1.PNG);
+  width: 100%;
+  clear: both;
+  content:'';
+  display: table;
+}
+
+  
+/*.menu {
+  width: 1000px;
+  margin: 0 auto;
+}*/
+img.logo {
+ float: left;
+ padding: 0;
+ height: 40px;
+}
+/*nav {
+  float: right;
+}
+*/
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 11.5px 0;
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+
+}
+
+nav ul li a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: #fff;
+  height: 5px;
+  top:0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+.titulo{
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: 0px;
+  margin-top: 0px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.imagenes{
+  padding-left: 5em;
+}
+.imagenes img{
+  float: left;
+  border: 1em ridge #24303c;
+  width: 400px; 
+  height: 370px;
+}
+.menu1{
+  float: left;
+  padding-left: 3em;
+  padding-right: 12em;
+}
+
+
+
+.form-register {
+
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: 0px;
+  margin-top: 0px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+body{
+  background-color: rgba(153, 153, 153);
+    background-image: url(imagenes/fondo4.jpeg);
+}
+
+
+body{
+  background-color: #632432;
+  
+}
+
+#main-container{
+  margin: 150px auto;
+  width: 600px;
+}
+
+table{
+  margin-top: 1em;
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td{
+  padding: 20px;
+}
+
+thead{
+  background-color: #24303c;
+  border-bottom: solid 5px #24303c;
+  color: white;
+}
+
+tr:nth-child(even){
+  background-color: #ddd;
+}
+
+tr:hover td{
+  background-color: #24303c;
+  color: white;
+}
+.button3 a{
+  background: black;
+  color: white;
+  display: inline-blockl;
+  font-size: 1 px;
+  margin: 0px;
+  box-shadow: 0px 0px 0px #373c3c;
+/*  margin-left: 19px;
+  text-align: center;
+  text-decoration: none;
+
+  font-family: 'Bebas Neue', cursive;
+  line-height: 50px;
+  font-weight: 1000px;*/
+
+}
